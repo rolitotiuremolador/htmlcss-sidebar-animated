@@ -92,8 +92,8 @@ label #cancel {
 
 #check:checked ~ label #cancel {
     left: 195px;
-    opacity: 0;
-    pointer-event: none;
+    /* opacity: 0;
+    pointer-events: none; */
 }
 
 #checked:checked ~ section{
@@ -101,11 +101,11 @@ label #cancel {
 }
 
 section {
-    background: url() no-repeat;
+    /* background: url() no-repeat; */
     /* or  */
     background: darkolivegreen;
     background-position: center;
     background-size: cover;
     height: 100vh;
-    transistion: all 5s;
+    transition: all 5s;
 }
